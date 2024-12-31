@@ -3,7 +3,7 @@ import Loading from "./screens/Loading";
 import { Homes } from "./screens/Homes";
 import Referrals from "./screens/Referrals";
 import Earn from "./screens/Earn";
-import Daily from "./screens/Daily";
+import Daily from "./screens/Rank";
 import Airdrop from "./screens/Wallet";
 
 
