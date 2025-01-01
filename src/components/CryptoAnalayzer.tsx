@@ -11,7 +11,7 @@ const CryptoAnalyzer: React.FC = () => {
     event.preventDefault();
      console.log("Analyzing:", { symbol, timeframe });
      setShowPopup(true); 
-    // setShowLockedPopup(true)
+     setShowLockedPopup(true)
 
   };
 
