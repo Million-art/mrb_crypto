@@ -8,9 +8,9 @@ import Airdrop from "./screens/Wallet";
 
 
 //Redux Actions and Selectors
-import { setTopUsers } from "./store/slice/topUsersSlice";
-import { setUser } from "./store/slice/userSlice";
-import { setShowMessage, selectShowMessage } from "./store/slice/messageSlice";
+// import { setTopUsers } from "./store/slice/topUsersSlice";
+// import { setUser } from "./store/slice/userSlice";
+import { selectShowMessage } from "./store/slice/messageSlice";
 import { selectUser } from "./store/slice/userSlice";
 import { selectCalculate } from "./store/slice/calculateSlice";
 import { AppDispatch, RootState } from "./store/store";  
