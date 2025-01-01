@@ -11,20 +11,20 @@ import Airdrop from "./screens/Wallet";
 // import { setTopUsers } from "./store/slice/topUsersSlice";
 // import { setUser } from "./store/slice/userSlice";
 import { selectShowMessage } from "./store/slice/messageSlice";
-import { selectUser } from "./store/slice/userSlice";
-import { selectCalculate } from "./store/slice/calculateSlice";
-import { AppDispatch, RootState } from "./store/store";  
-import { useDispatch, useSelector } from "react-redux";
+// import { selectUser } from "./store/slice/userSlice";
+// import { selectCalculate } from "./store/slice/calculateSlice";
+import {  RootState } from "./store/store";  
+import {   useSelector } from "react-redux";
 import BottomNav from "./components/BottomNav";
 import { ToastContainer } from "react-toastify";
 
 function App() {
  
-  const dispatch = useDispatch<AppDispatch>();
+  // const dispatch = useDispatch<AppDispatch>();
 
   // Selectors
-  const user = useSelector((state: RootState) => selectUser(state));
-  const calculate = useSelector((state: RootState) => selectCalculate(state));
+  // const user = useSelector((state: RootState) => selectUser(state));
+  // const calculate = useSelector((state: RootState) => selectCalculate(state));
   const message = useSelector((state: RootState) => selectShowMessage(state));
  
   return (
