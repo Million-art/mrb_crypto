@@ -2,7 +2,11 @@
 
 const Wallet = () => {
   return (
-    <div>Airdrop</div>
+    <section className="mb-24">
+      <div className=" text-white">
+        <h1>Airdrop</h1>
+      </div>
+    </section>
   )
 }
 

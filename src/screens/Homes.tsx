@@ -5,7 +5,7 @@ import Profile from "../components/Profile"
 
 export const Homes = () => {
   return (
-    <main>
+    <main className="flex flex-col mb-24 ">
       <Profile />
       <Ad />
       <CryptoAnalyzer />
