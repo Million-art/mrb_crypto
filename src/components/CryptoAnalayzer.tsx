@@ -107,6 +107,7 @@ const CryptoAnalyzer: React.FC = () => {
 
       {/* Display TradingView Widget Popup */}
       {showPopup && (
+
         <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
           <div className="bg-gray-medium text-white rounded-lg shadow-lg w-full h-full p-6 flex flex-col">
             <h3 className="text-lg font-semibold text-center mb-4">
