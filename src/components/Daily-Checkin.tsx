@@ -2,7 +2,7 @@ import flash from '@/assets/flash.png';
 
 const DailyCheckIn = () => {
   return (
-    <div className="mx-6 sm:mx-[70px] text-white mt-5">
+    <div className="mx-10 sm:mx-[70px] text-white mt-5">
       <h1 className="text-xl sm:text-2xl font-medium">Daily Checkin</h1>
       <div className="flex my-5 justify-between p-4 sm:p-5 rounded-xl bg-gray-dark">
         <div className="flex items-center gap-3">
