@@ -70,8 +70,8 @@ const CryptoAnalyzer: React.FC = () => {
       </form>
 
       {showPopup && (
-        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-40 min-h-screen min-w-screen">
-          <div className="bg-gray-medium text-white rounded-lg shadow-lg p-6 w-96">
+        <div className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-40 h-full w-full">
+          <div className="bg-gray-medium text-white rounded-lg shadow-lg p-6 w-full h-full flex flex-col justify-center items-center">
             <h3 className="text-lg font-semibold text-center mb-4">
               {symbol.toUpperCase()} Analysis
             </h3>
