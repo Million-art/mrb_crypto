@@ -20,7 +20,7 @@ const CryptoAnalyzer: React.FC = () => {
   };
 
   return (
-    <section className="flex justify-center h-auto bg-gray-medium mx-5 rounded-xl">
+    <section className="flex justify-center h-auto bg-gray-dark mx-5 rounded-xl">
       <form onSubmit={handleAnalyze} className="shadow-md rounded-lg p-6 w-96">
         <h2 className="text-lg text-white font-semibold text-center mb-3">
           Advanced Crypto Analyzer

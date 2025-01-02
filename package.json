@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.5.0",
+    "@telegram-apps/sdk": "^2.11.1",
+    "@tonconnect/ui-react": "^2.0.9",
     "firebase": "^11.1.0",
     "lightweight-charts": "^4.2.2",
     "mrb_crypto": "file:",
