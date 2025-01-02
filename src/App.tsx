@@ -139,8 +139,8 @@ function App() {
           maxWidth: "none",
           left: "20px",
           right: "20px",
-          top: "20px",
-          height: "20px",
+          top: "30px",
+          height: "80px",
         }}
         toastStyle={{
           minHeight: "20px",

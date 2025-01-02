@@ -38,9 +38,9 @@ const TradingViewWidget: React.FC<TradingViewWidgetProps> = ({ symbol, interval 
 
   return (
     <div
-      className="tradingview-widget-container w-full h-screen"
+      className="tradingview-widget-container w-100vw h-100vh"
       ref={container}
-      style={{ height: "500px", width: "100%" }}
+      style={{ height: "100%", width: "100%" }}
     >
       <div className="tradingview-widget-container__widget"></div>
     </div>
